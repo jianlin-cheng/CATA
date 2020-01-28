@@ -7,7 +7,7 @@
 
 ## Papers
 1. Collaborative Attentive Autoencoder for Scientific Article Recommendation (**ICMLA 2019**)
-2. CATA++: A Collaborative Dual Attentive Autoencoder Method for Recommending Scientific Articles (**arXiv 2020**)
+2. CATA++: A Collaborative Dual Attentive Autoencoder Method for Recommending Scientific Articles (**Submitted for publication**)
 
 ## Datasets
 - Citeulike-a Dataset
@@ -27,14 +27,14 @@
 
 ### Configurations
 You can evaluate our models with different settings in terms of:
-1. data_name `-d`: a' for citeulike-a and 't' for citeulike-t. [*Optional*] [*Default=citeulike-a*]
+1. data_name `-d`: 'a' for citeulike-a and 't' for citeulike-t. [*Optional*] [*Default=citeulike-a*]
 2. sparse `-s`: '0', 'no', 'false', or 'f' for dense. [*Optional*] [*Default=sparse*]
 3. pretrain `-pretrain`: '1', 'yes', 'true' or 't' for pretrain the attentive autoencoder. [*Optional*] [*Default=No-pretraining*]
 4. epochs `-e`: Number of epochs to pretrain the attentive autoencoder. [*Optional*] [*Default=150*]
 5. lambda_u `-u`: value of lambda_u. [*Optional*] [*Default=10*] 
 6. lambda_v `-v`: value of lambda_v. [*Optional*] [*Default=0.1*]
-7. pmf_epochs `-pe`: Number of epochs for pmf. [*Optional*] [*Default=50*]
-8. output_name `-o` :CATA.mat name. [*Optional*]
+7. pmf_epochs `-pe`: Number of iterations for PMF. [*Optional*] [*Default=100*]
+8. output_name `-o` : Name of the output file. [*Optional*]
 9. latent_size `-l` :Size of latent space. [*Optional*] [*Default=50*]
 
 ### Examples
@@ -47,5 +47,4 @@ You can evaluate our models with different settings in terms of:
 	- `python3 test_CATA++.py -pretrain 0 -d 't' -s 1`
 - **Example 3**: Run CATA model for citeulike-a dataset with the sparse setting:
 	- `python3 test_CATA.py -pretrain 0 -d 'a' -s 1`
-
 
