@@ -119,7 +119,7 @@ def CAttAE(X, data, sparse, data_name, output_name, pretrain):
     dimension = parameters.dimension
     train_model, eval_model = AttAE_module(len(X[0]), dimension)
 
-    # Pre-Train the two models; or load weights from pretrained models
+    # Pre-Train model; or load weights from pretrained model
     if (pretraining):
         print ("pretraining started")
         history = train(train_model, X, X, parameters.mlp_epoch)
