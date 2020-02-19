@@ -6,7 +6,7 @@
 > This is the implementation of our two recent models for recommending scientific articles. The first model, CATA, utilizes articles’ titles and abstracts via a single attentive autoencoder, while the second model, CATA++, utilizes additional articles' information (such as tags and citations between articles) via two parallel attentive autoencoders. 
 
 ## Papers
-1. Collaborative Attentive Autoencoder for Scientific Article Recommendation (**ICMLA 2019**)
+1. Collaborative Attentive Autoencoder for Scientific Article Recommendation (<a href="https://ieeexplore.ieee.org/document/8999062" target="_blank">_**ICMLA 2019**_</a>)
 2. CATA++: A Collaborative Dual Attentive Autoencoder Method for Recommending Scientific Articles (**Submitted for publication**)
 
 ## Datasets
