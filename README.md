@@ -7,13 +7,11 @@
 
 ## Papers
 1. Collaborative Attentive Autoencoder for Scientific Article Recommendation (<a href="https://ieeexplore.ieee.org/document/8999062" target="_blank">_**ICMLA 2019**_</a>)
-2. CATA++: A Collaborative Dual Attentive Autoencoder Method for Recommending Scientific Articles (**Submitted for publication**)
+2. CATA++: A Collaborative Dual Attentive Autoencoder Method for Recommending Scientific Articles (<a href="https://arxiv.org/abs/2002.12277" target="_blank">_**arXiv 2020**_</a>)
 
 ## Datasets
-- Citeulike-a Dataset
-- Citeulike-t Dataset
 
-  | Dataset	  | #users	| #items | #pairs | sparsity 	 |
+  | Dataset	  | #users	| #articles | #pairs | sparsity 	 |
   | --------	 | ---		| ---	 | --- 		  | ---	 |
   | Citeulike-a| 5,551	| 16,980	 | 204,986  | 99.78% |
   | Citeulike-t| 7,947	| 25,975	 | 134,860	| 99.93% |
