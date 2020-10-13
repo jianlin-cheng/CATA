@@ -7,7 +7,7 @@
 
 ## Papers
 1. Collaborative Attentive Autoencoder for Scientific Article Recommendation (<a href="https://ieeexplore.ieee.org/document/8999062" target="_blank">_**ICMLA 2019**_</a>)
-2. CATA++: A Collaborative Dual Attentive Autoencoder Method for Recommending Scientific Articles (<a href="https://arxiv.org/abs/2002.12277" target="_blank">_**arXiv 2020**_</a>)
+2. CATA++: A Collaborative Dual Attentive Autoencoder Method for Recommending Scientific Articles (<a href="https://ieeexplore.ieee.org/document/9217428" target="_blank">_**Access 2020**_</a>)
 
 ## Datasets
 
